@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "range",
+  "type": "object",
+  "properties": {
+    "rangeLabelKey": {
+      "type": "string",
+      "pattern": {}
+    },
+    "lowerRangeValue": {
+      "type": "number"
+    },
+    "upperRangeValue": {
+      "type": "number"
+    },
+    "rangeUnit": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "rangeLabelKey",
+    "lowerRangeValue",
+    "upperRangeValue",
+    "rangeUnit"
+  ]
+}
